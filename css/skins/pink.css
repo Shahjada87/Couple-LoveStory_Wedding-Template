@@ -1,0 +1,29 @@
+/*  pink color style    */
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-icons a i,
+.people-section .social-icons a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover{
+  color:#fb839e;
+}
+
+.btn-1,
+.people-section .social-icons a i,
+.couple-section .social-icons a i,
+.event-section .event-item-inner::before,
+.couple-section .couple img{
+  border-color: #fb839e;
+}
+
+.btn-1,
+.rsvp-section,
+.event-section,
+.people-section .social-icons a:hover i,
+.couple-section .social-icons a:hover i{
+  background-color: #fb839e;
+}
+/*  pink color style    */
