@@ -27,6 +27,11 @@ $(window).scroll(function(){
   }
 })
 
+//scrollIt
+  $.scrollIt({
+    topOffset: -50
+  });
+
   //people filter
   peopleFilter($(".filter-btn.active").attr("data-target"))
   $(".filter-btn").click(function() {

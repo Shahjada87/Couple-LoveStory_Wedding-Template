@@ -146,12 +146,43 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s ease;
+  display: none;
+}
+.header.fixed .hamburger-btn{
+  border-color: #000000;
 }
 .header .hamburger-btn span{
   display: block;
   height:1px;
   width: 17px;
   background-color: #ffffff;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.header.fixed .hamburger-btn span:before,
+.header.fixed .hamburger-btn span:after,
+.header.fixed .hamburger-btn span{
+  background-color: #000000;
+}
+
+.header .hamburger-btn span:before,
+.header .hamburger-btn span:after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+}
+.header .hamburger-btn span:before{
+  top: -6px;
+}
+
+.header .hamburger-btn span:after{
+  top: 6px;
 }
 
 .header .nav {

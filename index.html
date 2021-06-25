@@ -30,13 +30,13 @@
         </div>
         <div class="nav">
           <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Couple</a></li>
-            <li><a href="#">Story</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">People</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">RSVP</a></li>
+            <li><a href="#" data-scroll-nav="0" class="active">Home</a></li>
+            <li><a data-scroll-nav="1" href="#">Couple</a></li>
+            <li><a data-scroll-nav="2" href="#">Story</a></li>
+            <li><a data-scroll-nav="3" href="#">Events</a></li>
+            <li><a data-scroll-nav="4" href="#">People</a></li>
+            <li><a data-scroll-nav="5" href="#">Gallery</a></li>
+            <li><a data-scroll-nav="6" href="#">RSVP</a></li>
           </ul>
         </div>
       </div>
@@ -46,7 +46,7 @@
   <!-- header end -->
 
   <!-- home section start -->
-  <section class="home-section">
+  <section class="home-section" data-scroll-index="0">
     <!-- Slide start -->
     <div class="slide active" style="background-image: url('img/slides/slide-1.jpg');">
       <div class="container">
@@ -93,7 +93,7 @@
   <!-- home section end -->
 
   <!-- Couple section start -->
-  <section class="couple-section">
+  <section class="couple-section" data-scroll-index="1">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -149,7 +149,7 @@
   <!-- Couple section end -->
 
   <!-- Stories section start -->
-  <section class="story-section">
+  <section class="story-section" data-scroll-index="2">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -224,7 +224,7 @@
   <!-- Stories section end -->
 
   <!-- Event section start -->
-  <section class="event-section">
+  <section class="event-section" data-scroll-index="3">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -264,7 +264,7 @@
   <!-- Event section end -->
 
   <!-- People section Start-->
-  <section class="people-section">
+  <section class="people-section" data-scroll-index="4">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -499,7 +499,7 @@
 
 
 <!-- gallery section start-->
-  <section class="gallery-section">
+  <section class="gallery-section" data-scroll-index="5">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -578,7 +578,7 @@
 
 
 <!-- RSVP section start-->
-  <section class="rsvp-section">
+  <section class="rsvp-section" data-scroll-index="6">
   <div class="container">
     <div class="row">
       <div class="section-title">
@@ -663,6 +663,9 @@
 
   <!--jQuery-->
   <script src="js/jquery.min.js"></script>
+
+  <!--scrollit-->
+  <script src="js/scrollIt.min.js"></script>
   <!--main-->
   <script src="js/main.js"></script>
 
