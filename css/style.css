@@ -147,7 +147,6 @@ footer {
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease;
-  display: none;
 }
 .header.fixed .hamburger-btn{
   border-color: #000000;
@@ -493,6 +492,9 @@ footer {
   flex: 0 0 50%;
   max-width: 50%;
 }
+.story-section .story-img img{
+  width: 100%;
+}
 
 .story-section .story-text h3 {
   font-size: 25px;
@@ -537,7 +539,7 @@ footer {
 .event-section .event-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
-  padding: 0 15px;
+  padding: 15px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -855,7 +857,7 @@ box-shadow: 0 0 10px #cccccc;
 .rsvp-section .rsvp-form{
   flex: 0 0 100%;
   max-width: 100%;
-
+  padding: 0 15px;
 }
 .rsvp-section .form{
   max-width: 600px;
@@ -920,6 +922,7 @@ box-shadow: 0 0 10px #cccccc;
   display: flex;
   position: relative;
   z-index: -1;
+  overflow: hidden;
 }
 
 .footer .footer-content .couple-name img{
